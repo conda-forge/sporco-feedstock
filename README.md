@@ -22,9 +22,8 @@ the Fast Iterative Shrinkage-Thresholding Algorithm (FISTA).
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/sporco-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/sporco-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/sporco-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/sporco-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sporco-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sporco-feedstock)
 
 Current release info
 ====================
