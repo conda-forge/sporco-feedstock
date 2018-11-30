@@ -14,8 +14,7 @@ source:
   '{{ hash_type }}': '{{ hash_value }}'
 
 build:
-  number: 1000
-  skip: True  # [win]
+  number: 1001
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -40,6 +39,8 @@ requirements:
 test:
   imports:
     - sporco
+    - sporco.util
+    - sporco.linalg
 
 about:
   home: https://github.com/bwohlberg/sporco
