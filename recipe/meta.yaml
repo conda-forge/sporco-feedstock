@@ -1,8 +1,8 @@
 {% set name = "sporco" %}
-{% set version = "0.1.10" %}
+{% set version = "0.1.11" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "13ff925142da922eb464f9124267521351a26c1bd039057f3eeecc8841430f0b" %}
+{% set hash_value = "eb84fe52e5a6edb7a5f0bdc6025dad5334a753086881f025618b39b974f9b107" %}
 
 package:
   name: '{{ name|lower }}'
@@ -14,7 +14,7 @@ source:
   '{{ hash_type }}': '{{ hash_value }}'
 
 build:
-  number: 1001
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
