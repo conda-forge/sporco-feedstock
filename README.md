@@ -7,7 +7,7 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Sparse Optimisation Research Code: A Python package for sparse coding a nd dictionary learning
+Summary: Sparse Optimisation Research Code: A Python package for sparse coding and dictionary learning
 
 SPORCO is a Python package for solving optimisation problems with
 sparsity-inducing regularisation. These consist primarily of sparse
