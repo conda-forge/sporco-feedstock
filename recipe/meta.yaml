@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://github.com/bwohlberg/sporco
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: 'Sparse Optimisation Research Code: A Python package for sparse coding a nd dictionary learning'
