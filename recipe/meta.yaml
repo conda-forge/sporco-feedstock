@@ -11,7 +11,7 @@ source:
   'sha256': '67ea72337572d614468b3a97bbe165696f7baa83bff724293e8a6dfe8527d019'
 
 build:
-  number: 2
+  number: 3
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://github.com/bwohlberg/sporco
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: 'Sparse Optimisation Research Code: A Python package for sparse coding a nd dictionary learning'
