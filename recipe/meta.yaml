@@ -1,18 +1,18 @@
 {% set name = "sporco" %}
-{% set version = "0.1.12" %}
+{% set version = "0.2.0" %}
 
 package:
-  name: '{{ name|lower }}'
-  version: '{{ version }}'
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  fn: '{{ name }}-{{ version }}.tar.gz'
+  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  'sha256': '67ea72337572d614468b3a97bbe165696f7baa83bff724293e8a6dfe8527d019'
+  sha256: 43fc008fdbe0c1db4a7c0d92f217de495bc5eff070ab73374cea86b736fcd9b9
 
 build:
-  number: 4
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
