@@ -20,7 +20,7 @@ sparse coding and dictionary learning, but there is also support for
 other problems such as Total Variation regularisation and Robust
 PCA. The optimisation algorithms in the current version are based
 on the Alternating Direction Method of Multipliers (ADMM) or on
-the Fast Iterative Shrinkage-Thresholding Algorithm (FISTA).
+the Proximal Gradient Method (PGM).
 
 
 Current build status
