@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sporco-feedstock/blob/master/LICENSE.txt)
 
-Summary: Sparse Optimisation Research Code: A Python package for sparse coding a nd dictionary learning
+Summary: Sparse Optimisation Research Code: A Python package for sparse coding and dictionary learning
 
 Development: https://github.com/bwohlberg/sporco
 
