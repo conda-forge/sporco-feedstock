@@ -11,7 +11,7 @@ source:
   sha256: 43fc008fdbe0c1db4a7c0d92f217de495bc5eff070ab73374cea86b736fcd9b9
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -44,7 +44,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Sparse Optimisation Research Code: A Python package for sparse coding a nd dictionary learning'
+  summary: 'Sparse Optimisation Research Code: A Python package for sparse coding and dictionary learning'
   description: |
     SPORCO is a Python package for solving optimisation problems with
     sparsity-inducing regularisation. These consist primarily of sparse
@@ -53,7 +53,7 @@ about:
     other problems such as Total Variation regularisation and Robust
     PCA. The optimisation algorithms in the current version are based
     on the Alternating Direction Method of Multipliers (ADMM) or on
-    the Fast Iterative Shrinkage-Thresholding Algorithm (FISTA).
+    the Proximal Gradient Method (PGM).
   doc_url: https://sporco.readthedocs.io/en/latest/
   dev_url: https://github.com/bwohlberg/sporco
 
