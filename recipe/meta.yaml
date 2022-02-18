@@ -1,5 +1,5 @@
 {% set name = "sporco" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 43fc008fdbe0c1db4a7c0d92f217de495bc5eff070ab73374cea86b736fcd9b9
+  sha256: ec8bb48e897738b20e42fffabae450a16d997f6f0ed182cc81985e3db11fe150
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
