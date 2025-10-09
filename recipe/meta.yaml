@@ -1,5 +1,5 @@
 {% set name = "sporco" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ec8bb48e897738b20e42fffabae450a16d997f6f0ed182cc81985e3db11fe150
+  sha256: 0b104cf961ffc8092bef749b43822e5a82d6ab63550386e132ae97ba54fcf343
 
 build:
-  number: 4
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -30,6 +30,7 @@ requirements:
     - numpy >=1.12
     - scipy >=0.13.3
     - imageio
+    - filetype
     - matplotlib-base >=1.3.1
     - pyfftw >=0.10.4
 
