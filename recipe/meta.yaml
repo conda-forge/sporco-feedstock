@@ -9,9 +9,6 @@ source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 75873d65ed522304d17095d1155a3344301a592ecb0279da72b8fcd27b184886
-  patches:
-    - setup.py.patch
-    - pyproject.toml.patch
 
 build:
   number: 0
